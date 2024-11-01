@@ -1,0 +1,90 @@
+/**
+ * CSS for the metabox "Social Options"
+ * 
+ * @author Paul Kashtanoff <paul@byonepress.com>
+ * @copyright (c) 2015, OnePress Ltd
+ * 
+ * @package optinpanda 
+ * @since 1.0.0
+ */
+
+#OPanda_SocialOptionsMetaBox {
+    display: block;
+}
+#OPanda_SocialOptionsMetaBox .factory-tab-item .alert {
+    position: relative;
+    top: -25px;
+}
+#OPanda_SocialOptionsMetaBox .factory-control-facebook_share_dialog {
+    margin-top: 15px;
+}
+#OPanda_SocialOptionsMetaBox .factory-bodies {
+    display: block !important;
+    position: relative;
+}
+#OPanda_SocialOptionsMetaBox .opanda-overlay-note {
+    width: 270px;
+    left: 50%;
+    margin: 70px 0 0 -135px;
+}
+
+#opanda_twitter_tweet_text {
+    background: #fff url("../img/tweet-content-bg.png") no-repeat 50% 50%;
+    min-height: 100px;
+}
+
+#opanda_vk_share_description {
+    min-height: 100px;
+}
+
+#opanda_facebook_like_title,
+#opanda_facebook_share_title,
+#opanda_twitter_tweet_title,
+#opanda_twitter_follow_title,
+#opanda_google_plus_title,
+#opanda_google_share_title,
+#opanda_linkedin_share_title {
+    max-width: 200px;
+}
+
+#opanda-button-styles-box {
+    padding: 15px 36px 15px 8px;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+    margin-left: -22px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#opanda-button-styles-box  .opanda-inline-group {
+    display: inline-block;
+}
+
+.opanda-inline-form .control-label,
+.opanda-inline-form .control-group {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.opanda-inline-form .control-label {
+    padding-left: 16px;
+}
+.opanda-inline-form .control-group {
+    margin-left: 5px;
+}
+
+#opanda_social_buttons_display,
+#opanda_social_buttons_size,
+#opanda_show_counters {
+    width: auto;
+}
+
+#OPanda_SocialOptionsMetaBox .inside {
+    margin-top: 0px;
+}
+#OPanda_SocialOptionsMetaBox .factory-form-metabox {
+    padding-top: 0px;
+}
